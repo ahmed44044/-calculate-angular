@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ .home
+{
+    width: 300px;
+    background-color: black;
+    border-radius: 10px;
+}
+.col-md-12
+{
+    height: 70px;
+    background-color: rgb(91, 126, 128);
+    border-start-start-radius: 10px;
+    border-start-end-radius: 10px;
+}
+.row
+
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.col
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    
+    background-color: gray;
+    
+}
+.first .col
+{
+    background-color: rgb(99, 90, 107);
+}
+.col:last-child
+{
+    background-color: rgba(30, 166, 230, 0.7);
+
+    font-size: 22px;
+  
+}  
+.add
+{
+    background-color: rgba(30, 166, 230, 0.7) !important;
+
+    font-size: 22px;
+  
+}  
+
